@@ -30,7 +30,7 @@ export class RolesComponent implements OnInit, AfterViewInit {
           ? (input.checked = true)
           : (input.checked = false);
       });
-    }, 500);
+    }, 300);
   }
 
   listAllRoles() {
