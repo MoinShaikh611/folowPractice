@@ -1,0 +1,62 @@
+.breacrumb{
+    font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 16.8808px;
+line-height: 100%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #252E47;
+
+opacity: 0.99;
+}
+.roleName{
+    font-family: 'Exo';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 194% */
+
+
+color: #222B45;
+
+opacity: 0.5;
+}
+.roles-inner{
+    display: grid;
+    grid-row-gap: 15%;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+.search-input {
+    width: 16vw;
+    height: 4.5vh;
+    /* left: 501.05px; */
+    /* top: 28.87px; */
+    background: #FFFFFF;
+    border-radius: 3.16515px;
+    border: none;
+}
+.btn-new-role{
+    width: 10vw;
+    height: 4.5vh;
+    background: #2CBF67;
+    border-radius: 3px;
+    border: none;
+}
+.btn-admins {
+    border: none;
+    width: 8vw;
+    height: 4.5vh;
+    background: white;
+    border-radius: 3px;
+    border: none;
+}
+.add-role-buttons{
+    display: grid;
+    grid-auto-flow: column;
+}

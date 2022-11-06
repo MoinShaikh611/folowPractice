@@ -1,0 +1,61 @@
+<div class="roles-wrapper">
+    <div class="roles-wrapper-container">
+        <div class="roles-left-side">
+            <div class="roles-inner">
+                <div class="roles-heading">Roles(5)</div>
+                <div class="roles-search"> <input class="search-input" type="text" placeholder="Search.." name="search"></div>
+                <div class="role-name" *ngFor="let role of rolesList; index as i">
+                    <div class="name">{{i+1}}. {{role.name}}</div>
+                    <div class="button">
+                        <div class="icons">
+                            <i class="fa fa-edit" style="font-size:18px"></i>
+                        </div>
+                        <div class="icons2" (click)="deleteRole(role)">
+                            <i class="fa fa-trash" style="font-size:18px"></i>
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- <div class="role-name">
+                    <div class="name">2. Shipping</div>
+                    <div class="button">
+                        <div class="icons">
+                            <i class="fa fa-edit" style="font-size:18px"></i>
+                        </div>
+                        <div class="icons2">
+                            <i class="fa fa-trash" style="font-size:18px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="role-name">
+                    <div class="name">3. Posts Only</div>
+                    <div class="button">
+                        <div class="icons">
+                            <i class="fa fa-edit" style="font-size:18px"></i>
+                        </div>
+                        <div class="icons2">
+                            <i class="fa fa-trash" style="font-size:18px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="role-name">
+                    <div class="name">4. Admin</div>
+                    <div class="button">
+                        <div class="icons">
+                            <i class="fa fa-edit" style="font-size:18px"></i>
+                        </div>
+                        <div class="icons2">
+                            <i class="fa fa-trash" style="font-size:18px"></i>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="add-roles">
+           
+
+                <router-outlet></router-outlet>
+          
+        </div>
+    </div>
+</div>
